@@ -1,0 +1,22 @@
+h3
+{
+    font-size: 26px !important ;
+}
+
+.btn-success:hover
+{
+background-color: lawngreen;
+}
+
+canvas
+{
+    animation-name: changing ;
+    animation-duration: 4.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes changing 
+{
+from{box-shadow: 1px 1px 38px red;}
+to{box-shadow: 1px 1px 38px yellowgreen;}
+}
